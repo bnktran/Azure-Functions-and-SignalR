@@ -7,7 +7,8 @@
     "start": "lite-server --baseDir=\"public\"",
     "postinstall": "npm run setup",
     "setup": "node setup.js",
-    "update-data": "node update.js"
+    "update-data": "node update.js",
+    "debug": "node --inspect-brk app.js"
   },
   "license": "MIT",
   "repository": {
